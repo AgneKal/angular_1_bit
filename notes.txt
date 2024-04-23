@@ -1,0 +1,12 @@
+<div>
+
+    
+    <br>
+    <input type="number" name="x" [value]="x"><br>
+    <input type="number" name="y" [value]="y"> <br>
+
+    <button (click)="pridek()">Pridėti</button>
+
+    <div>Suma: {{ x + y }} </div>
+
+</div> 
